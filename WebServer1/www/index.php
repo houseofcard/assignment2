@@ -37,10 +37,10 @@
 <a href='gothic.php'>Gothic</a>
     
     
-<a href='http://ec2-100-24-105-199.compute-1.amazonaws.com/red_plant.php'>Red Plant</a>
+<a href=red_plant.php'>Red Plant</a>
     
     
-<a href='http://ec2-100-24-105-199.compute-1.amazonaws.com/religious.php'>Religious</a>    
+<a href=religious.php'>Religious</a>    
   
 <p>Click the link above</p>
 </body>
