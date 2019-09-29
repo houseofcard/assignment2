@@ -28,7 +28,7 @@ $pdo = new PDO($pdo_dsn, $db_user, $db_passwd);
 
 <p>This the order page for the Religious Stained Glass Windows.</p>
 
-<figure class='images'><img src='' Width='200' Height='400' alt='Religious Window'></figure>
+<figure class='images'><img src='https://stainedglasswindow.s3.amazonaws.com/religious.jpg' Width='200' Height='400' alt='Religious Window'></figure>
 
 <br>
 <p>Below is a table of available sizes, the price for each size and the current stock available.</p> 

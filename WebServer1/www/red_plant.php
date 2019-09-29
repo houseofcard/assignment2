@@ -28,7 +28,7 @@ $pdo = new PDO($pdo_dsn, $db_user, $db_passwd);
 
 <p>This the order page for the Red Plant Stained Glass Windows.</p>
 
-<img src='' Width='200' Height='400' alt='Red Plant'></figure>
+<img src='https://stainedglasswindow.s3.amazonaws.com/red_plant.jpg' Width='200' Height='400' alt='Red Plant'></figure>
 
 <br>
 <p>Below is a table of available sizes, the price for each size and the current stock available.</p> 

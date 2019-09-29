@@ -28,7 +28,7 @@ $pdo = new PDO($pdo_dsn, $db_user, $db_passwd);
 
 <p>This the order page for the Astrological Stained Glass Windows.<p>
 
-<figure class='images'><img src='' Width= '200' Height='400' alt='Astrological Window'></figure>
+<figure class='images'><img src='https://stainedglasswindow.s3.amazonaws.com/astrological.jpg' Width= '200' Height='400' alt='Astrological Window'></figure>
 
 
 <br>
