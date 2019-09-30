@@ -9,7 +9,7 @@ $_SESSION["id"] = 3;
 $id = $_SESSION["id"]; 
 ?>
 <title>Gothic</title>
-<link rel="stylesheet" href="style_pages.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <?php

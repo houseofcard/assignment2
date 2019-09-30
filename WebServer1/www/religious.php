@@ -9,7 +9,7 @@ $_SESSION["id"] = 5;
 $id = $_SESSION["id"]; 
 ?>
 <title>Religious</title>
-<link rel="stylesheet" href="style_pages.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <?php

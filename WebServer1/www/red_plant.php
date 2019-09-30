@@ -9,7 +9,7 @@ $_SESSION["id"] = 4;
 $id = $_SESSION["id"]; 
 ?>
 <title>Red Plant</title>
-<link rel="stylesheet" href="style_pages.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <?php

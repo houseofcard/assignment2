@@ -9,7 +9,7 @@ $_SESSION["id"] = 2;
 $id = $_SESSION["id"]; 
 ?>
 <title>Coloured Tree</title>
-<link rel="stylesheet" href="style_pages.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <?php
