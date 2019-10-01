@@ -14,10 +14,10 @@ $id = $_SESSION["id"];
 <body>
 <?php
 // Connect page to the database
-$db_host   = 'localhost';
-$db_name   = 'threecor_assignment1';
-$db_user   = 'threecor';
-$db_passwd = 'uaj478u5';
+$db_host   = 'ec2-100-27-48-3.compute-1.amazonaws.com';
+$db_name   = 'fvision';
+$db_user   = 'webuser';
+$db_passwd = 'insecure_db_pw';
 $pdo_dsn = "mysql:host=$db_host;dbname=$db_name";
 $pdo = new PDO($pdo_dsn, $db_user, $db_passwd);
 ?>

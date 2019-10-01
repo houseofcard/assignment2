@@ -5,6 +5,14 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php
+$db_host   = '192.168.2.12';
+$db_name   = 'fvision';
+$db_user   = 'webuser';
+$db_passwd = 'insecure_db_pw';
+$pdo_dsn = "mysql:host=$db_host;dbname=$db_name";
+$pdo = new PDO($pdo_dsn, $db_user, $db_passwd);
+?>
 
 <h1>Stained Glass Windows</h1>
 
@@ -12,37 +20,29 @@
 
 <table border="1">
 <tr><th>Window Code</th><th>Window Name</th></tr>
+<?php
+$q = $pdo->query("SELECT * FROM stainedwindows");
 
+while($row = $q->fetch()){
+  echo "<tr><td>".$row["id"]."</td><td>".$row["name"]."</td></tr>\n";
+}
 
+?>
 </table>
+>
 
-<h2>Select A Stained Glass Window</h2>
+<h2>Select A Stained Glass Window from one of the links below.</h2>
 
-<form action="#" method="post">
-<select name="windows">
+<p><a href='astrological.php'>Astrological</a></p>
+    
+<p><a href='coloured_tree.php'>Coloured Tree</a></p>
+    
+<p><a href='gothic.php'>Gothic</a></p>
+    
+<p><a href='red_plant.php'>Red Plant</a></p>
+    
+<p><a href='religious.php'>Religious</a></p>    
 
-</select>
-<input type="submit" name="submit" value="Create Link"/>
-</form>
-        
-
-<p>You have selected: </p>
-
-<a href='astrological.php'>Astrological</a>
-    
-    
-<a href='coloured_tree.php'>Coloured Tree</a>
-    
-    
-<a href='gothic.php'>Gothic</a>
-    
-    
-<a href='red_plant.php'>Red Plant</a>
-    
-    
-<a href='religious.php'>Religious</a>    
-  
-<p>Click the link above</p>
 </body>
 </html>
 
