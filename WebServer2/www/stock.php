@@ -8,10 +8,10 @@
 <body>
 <?php
 // Connect page to the database
-$db_host   = 'localhost';
-$db_name   = 'threecor_assignment1';
-$db_user   = 'threecor';
-$db_passwd = 'uaj478u5';
+$db_host   = 'ec2-3-91-19-9.compute-1.amazonaws.com';
+$db_name   = 'fvision';
+$db_user   = 'webuser';
+$db_passwd = 'insecure_db_pw';
 $pdo_dsn = "mysql:host=$db_host;dbname=$db_name";
 $pdo = new PDO($pdo_dsn, $db_user, $db_passwd);
 ?>
@@ -26,6 +26,9 @@ $pdo = new PDO($pdo_dsn, $db_user, $db_passwd);
 
 <!-- Table for Available Sizes Astrological Windows-->
 <h3>Astrological</h3>
+
+<figure class='images'><img src='https://stainedglasswindow.s3.amazonaws.com/astrological.jpg' Width= '200' Height='400' alt='Astrological Window'></figure>
+
 <table border="1">
 <tr><th>Window code</th><th>Window Size code</th><th>Size Name</th><th>Price</th><th>Stock Available</th></tr>
 
@@ -42,6 +45,9 @@ while($row = $q->fetch()){
 
 <br>
 <h3>Coloured Tree</h3>
+
+<figure class='images'><img src='https://stainedglasswindow.s3.amazonaws.com/coloured_tree.jpg' Width= '200' Height='400' alt='Coloured Tree Window'></figure>
+
 <!-- Table for Available Sizes Coloured Tree Windows-->
 <table border="1">
 <tr><th>Window code</th><th>Window Size code</th><th>Size Name</th><th>Price</th><th>Stock Available</th></tr>
@@ -59,6 +65,9 @@ while($row = $q->fetch()){
 
 <br>
 <h3>Gothic</h3>
+
+<figure class='images'><img src='https://stainedglasswindow.s3.amazonaws.com/gothic.jpg' Width= '200' Height='400' alt='Gothic Window'></figure>
+
 <!-- Table for Available Sizes Gothic Windows-->
 <table border="1">
 <tr><th>Window code</th><th>Window Size code</th><th>Size Name</th><th>Price</th><th>Stock Available</th></tr>
@@ -76,6 +85,9 @@ while($row = $q->fetch()){
 
 <br>
 <h3>Red Plant</h3>
+
+<figure><img src='https://stainedglasswindow.s3.amazonaws.com/red_plant.jpg' Width='200' Height='400' alt='Red Plant'></figure>
+
 <!-- Table for Available Sizes Red Plant Windows-->
 <table border="1">
 <tr><th>Window code</th><th>Window Size code</th><th>Size Name</th><th>Price</th><th>Stock Available</th></tr>
@@ -93,6 +105,9 @@ while($row = $q->fetch()){
 
 <br>
 <h3>Religious</h3>
+
+<figure class='images'><img src='https://stainedglasswindow.s3.amazonaws.com/religious.jpg' Width='200' Height='400' alt='Religious Window'></figure>
+
 <!-- Table for Available Sizes Religious Windows-->
 <table border="1">
 <tr><th>Window code</th><th>Window Size code</th><th>Size Name</th><th>Price</th><th>Stock Available</th></tr>
@@ -109,16 +124,6 @@ while($row = $q->fetch()){
 </table>
 
 <br>
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
