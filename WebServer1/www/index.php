@@ -6,8 +6,8 @@
 </head>
 <body>
 <?php
-$db_host   = 'ec2-3-91-19-9.compute-1.amazonaws.com';
-$db_name   = 'fvision';
+$db_host   = 'ec2-3-221-160-177.compute-1.amazonaws.com';
+$db_name   = 'stainedglass';
 $db_user   = 'webuser';
 $db_passwd = 'insecure_db_pw';
 $pdo_dsn = "mysql:host=$db_host;dbname=$db_name";
