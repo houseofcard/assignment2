@@ -14,7 +14,7 @@ $id = $_SESSION["id"];
 <body>
 <?php
 // Connect page to the database
-$db_host   = 'ec2-100-27-48-3.compute-1.amazonaws.com';
+$db_host   = 'ec2-3-91-19-9.compute-1.amazonaws.com';
 $db_name   = 'fvision';
 $db_user   = 'webuser';
 $db_passwd = 'insecure_db_pw';

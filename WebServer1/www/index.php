@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-$db_host   = '192.168.2.12';
+$db_host   = 'ec2-3-91-19-9.compute-1.amazonaws.com';
 $db_name   = 'fvision';
 $db_user   = 'webuser';
 $db_passwd = 'insecure_db_pw';
@@ -29,7 +29,7 @@ while($row = $q->fetch()){
 
 ?>
 </table>
->
+
 
 <h2>Select A Stained Glass Window from one of the links below.</h2>
 
@@ -42,6 +42,10 @@ while($row = $q->fetch()){
 <p><a href='red_plant.php'>Red Plant</a></p>
     
 <p><a href='religious.php'>Religious</a></p>    
+
+<h2>This is the link to the Admin Page if you are logged in as Admin</p>
+
+
 
 </body>
 </html>
