@@ -43,7 +43,7 @@ while($row = $q->fetch()){
     
 <p><a href='religious.php'>Religious</a></p>    
 
-<h2>This is the link to the Admin Page if you are logged in as Admin</p>
+<h2>This is the link to the Admin Page if you are logged in as Admin</h2>
 
 <p><a href='http://ec2-3-215-184-116.compute-1.amazonaws.com'>Admin</a></p>   
 
