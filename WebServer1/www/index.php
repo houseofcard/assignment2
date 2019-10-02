@@ -45,7 +45,7 @@ while($row = $q->fetch()){
 
 <h2>This is the link to the Admin Page if you are logged in as Admin</p>
 
-
+<p><a href='http://ec2-3-215-184-116.compute-1.amazonaws.com'>Admin</a></p>   
 
 </body>
 </html>
