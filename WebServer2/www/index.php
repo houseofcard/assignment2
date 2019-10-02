@@ -14,5 +14,10 @@
 
 <a href='stock.php'>Stock</a>
 
+<h2>This is the link to the Customers Page if you are logged in as Admin</h2>
+
+<p><a href='http://ec2-18-232-133-240.compute-1.amazonaws.com'>Customers</a></p>
+
+
 </body>
 </html>
